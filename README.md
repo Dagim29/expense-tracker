@@ -1,70 +1,117 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Expense Tracker
+An intuitive and visually appealing **Expense Tracker** built with **React**. This application helps users manage their income and expenses, visualize their financial data with charts, and track their overall balance.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Income and Expense Tracking:
+  - Add, edit, and delete income and expenses.
+  - Separate forms and lists for income and expenses.
+ Charts:
+  - Pie chart for income distribution by category.
+  - Pie chart for expense distribution by category.
+ Balance and Summary:
+  - Display total balance (income - expenses).
+  - Show total income and total expenses.
+  Filtering:
+  - Filter transactions by type (income or expense).
+  Dark Mode:
+  - Toggle between light and dark themes.
+  Responsive Design:
+  - Works seamlessly on all screen sizes.
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: Front-end library for building the user interface.
+- Recharts: Library for creating interactive charts.
+- CSS: Custom styles for a modern and responsive design.
+- HTML: Structure of the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Follow these steps to set up the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   
+   git clone https://github.com/your-username/expense-tracker.git
+   cd expense-tracker
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   
+   npm install
+   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Run the application:
+   
+   npm start
+   
 
-### `npm run eject`
+4. Open the app:
+   Visit `http://localhost:3000` in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Add Income:
+   - Use the Income Form to add income transactions.
+   - Specify the description, amount, category, and date.
 
-## Learn More
+2. Add Expenses:
+   - Use the Expense Form to add expense transactions.
+   - Specify the description, amount, category, and date.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. View Charts:
+   - Check the **Income Chart** and **Expense Chart** to visualize your financial data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Track Balance:
+   - The **Balance** section shows your total balance (income - expenses).
 
-### Code Splitting
+5. Filter Transactions:
+   - Use the **Filter** dropdown to view only income or only expenses.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Toggle Dark Mode:
+   - Click the **Theme Toggle** button to switch between light and dark themes.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Folder Structure
 
-### Making a Progressive Web App
+```
+src/
+├── components/
+│   ├── ExpenseForm.jsx
+│   ├── IncomeForm.jsx
+│   ├── ExpenseList.jsx
+│   ├── IncomeList.jsx
+│   ├── Balance.jsx
+│   ├── Filter.jsx
+│   ├── ExpenseSummary.jsx
+│   ├── ThemeToggle.jsx
+│   ├── ExpenseChart.jsx
+│   └── IncomeChart.jsx
+├── App.js
+├── index.js
+├── styles.css
+└── theme.css
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-### Deployment
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeatureName`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeatureName`).
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Enjoy managing your finances with the **Expense Tracker**! 🚀
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
