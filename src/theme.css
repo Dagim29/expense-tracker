@@ -1,0 +1,19 @@
+.app.dark .expense-form input,
+.app.dark .expense-form select,
+.app.dark .expense-form button {
+  background: #444;
+  color: #fff;
+  border-color: #555;
+}
+
+.app.dark .expense-list li {
+  border-color: #555;
+}
+
+.app.dark .expense-list li:hover {
+  background: rgba(40, 167, 69, 0.2);
+}
+
+.app.dark .expense-chart {
+  background: rgba(0, 0, 0, 0.2);
+}
